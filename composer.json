@@ -1,0 +1,30 @@
+{
+    "name": "hollisho/lumen-request",
+    "type": "library",
+    "description": "http Request For Lumen",
+    "keywords": [
+      "laravel",
+      "lumen",
+      "request"
+    ],
+    "homepage": "https://github.com/hollisho/lumen-request",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Hollis Ho",
+        "email": "he_wenzhi@126.com",
+        "homepage": "https://www.1024plus.com",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+      "php": "^7.0",
+      "illuminate/http": "^6.0 || ^8.0",
+        "hollisho/object-builder": "^1.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "hollisho\\lumen\\request\\": "src"
+      }
+    }
+  }
