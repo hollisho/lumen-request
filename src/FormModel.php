@@ -1,6 +1,6 @@
 <?php
 
-namespace hollisho\lumen\requeset;
+namespace hollisho\lumen\request;
 
 
 use hollisho\lumen\request\InvalidParameterException;

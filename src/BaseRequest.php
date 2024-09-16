@@ -2,7 +2,7 @@
 
 namespace hollisho\lumen\request;
 
-use hollisho\lumen\requeset\FormModel;
+use hollisho\lumen\request\FormModel;
 use Illuminate\Http\Request;
 use ReflectionException;
 
