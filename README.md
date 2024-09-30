@@ -23,16 +23,19 @@ class RequestBo extend BaseRequest
     }
 }
 
+//在控制器中注入Reqeust
+class IndexController extends Controller
+{
 
-/**
-   * @param RequestBo $requestBo
-   * @param Request $request
-   * @return \Illuminate\Http\JsonResponse
-   * @throws \App\Exceptions\BusinessException
-   */
-  public function create(RequestBo $requestBo, Request $request)
-  {
-      return new SuccessResponseVo($requestBo->toArray());
-  }
+    /**
+     * @param FetchHtmlRequest $request
+     * @param DomRenderService $renderService
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function parserHtml(RequestBo $request)
+    {
+        ......
+    }
+}
 
 ```
