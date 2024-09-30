@@ -1,6 +1,8 @@
 ## install
 
+```sh
 composer require hollisho/lumen-request
+```
 
 ## basic use
 ```php
