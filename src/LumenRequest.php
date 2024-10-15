@@ -2,11 +2,10 @@
 
 namespace hollisho\lumen\request;
 
-use hollisho\lumen\request\FormModel;
 use Illuminate\Http\Request;
 use ReflectionException;
 
-class BaseRequest extends FormModel
+class LumenRequest extends FormModel
 {
     private $request;
 

@@ -8,7 +8,7 @@ composer require hollisho/lumen-request
 ```php
 
 //定义Request对象
-class RequestBo extend BaseRequest
+class RequestBo extend LumenRequest
 {
     public $html_content;
 
